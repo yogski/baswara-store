@@ -7,7 +7,6 @@ import {
   Form,
   FormControl,
 } from "react-bootstrap";
-import LogoGrid from "./BestSellerGrid";
 import { useState, useEffect } from "react";
 import ButtonPalettePrimary from './ButtonPalettePrimary';
 import CategoryGrid from './CategoryGrid';

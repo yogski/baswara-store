@@ -17,7 +17,6 @@ import {
   Card,
   Alert,
 } from "react-bootstrap";
-import LogoGrid from "./LogoGrid";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import router from "next/router";
