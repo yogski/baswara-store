@@ -24,7 +24,7 @@ const CategoryGrid = () => {
 
   return categories == null ? (
     <div>
-      <p>kosoooong bosku</p>
+      <p>Tidak Ada Kategori Ditemukan</p>
     </div>
   ) : (
     <Container className={styles.productGridContainer}>

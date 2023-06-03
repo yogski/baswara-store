@@ -67,6 +67,8 @@
     width: 98% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
     font-family: Sansation;
     text-align: center;
   }

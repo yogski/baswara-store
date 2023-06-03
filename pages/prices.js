@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div className={style.container}>
       <Head>
-        <title lang="en-us">Prices at Truck Signs Adhesive Vinyls Website</title>
+        <title lang="en-us">Prices at Baswara Store Website</title>
         <meta
           name="description"
           content="Prices of all products to buy at Truck Signs website."
         />
          <meta
           property="og:title"
-          content="Prices at Truck Signs Adhesive Vinyls Website"
+          content="Prices at Baswara Store Website"
         />
         <meta
           property="og:description"

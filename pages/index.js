@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <div className={style.container}>
       <Head>
-        <title lang="en-us">Truck Signs Adhesive Vinyls</title>
+        <title lang="en-us">Baswara Store</title>
         <meta
           name="description"
           content="Toko Baswara"
         />
-        <meta property="og:title" content="Truck Signs Adhesive Vinyls" />
+        <meta property="og:title" content="Baswara Store" />
         <meta
           property="og:description"
           content="Katalog E-Commerce Baswara"

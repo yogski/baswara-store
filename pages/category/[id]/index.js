@@ -11,7 +11,7 @@ import ProductByCategoryGrid from "../../../components/ProductByCategoryGrid";
 
 const domain = process.env.NEXT_PUBLIC_API_DOMAIN_NAME;
 
-export default function ProductDetail() {
+export default function ProductByCategoryPage() {
   const router = useRouter();
   const { id } = router.query;
 

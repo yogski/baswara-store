@@ -1,33 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../../../styles/Home.module.css";
-import { useEffect, useState } from "react";
-import axios from "axios";
-import router from "next/router";
 import { useRouter } from "next/router";
-import ProductVariationComponent from "../../../components/ProductVariationComponent";
-import { useProduct } from "../../../context/ProductContext";
+import ProductDetailGrid from "../../../components/ProductDetailGrid";
 
 const domain = process.env.NEXT_PUBLIC_API_DOMAIN_NAME;
 
 export default function ProductDetail() {
   const router = useRouter();
   const { id } = router.query;
-
-  const {fetchProductByID } = useProduct();
-
-  useEffect(() => {
-    if(id != null && id != undefined){
-      fetchProductByID(id);
-    }
-  }, [])
-
-  useEffect(() => {
-    if(id != null && id != undefined){
-    fetchProductByID(id);
-    }
-  },[id])
-
 
   // NOTE Components
   return id == undefined || id == null ? (
@@ -62,7 +42,7 @@ export default function ProductDetail() {
       </Head>
 
       <main className={styles.main}>
-        <ProductVariationComponent />
+        <ProductDetailGrid id={id} />
       </main>
     </div>
   );

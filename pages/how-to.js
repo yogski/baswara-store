@@ -8,10 +8,10 @@ export default function HowTo() {
   return (
     <div className={style.container}>
       <Head>
-        <title lang="en-us">How To Apply Truck Signs Adhesive Vinyls</title>
+        <title lang="en-us">How To Apply Baswara Store</title>
         <meta
           property="og:title"
-          content="How To Apply Truck Signs Adhesive Vinyls"
+          content="How To Apply Baswara Store"
         />
         <meta
           property="og:description"

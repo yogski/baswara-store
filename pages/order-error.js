@@ -8,14 +8,14 @@ export default function OrderError() {
   return (
     <div className={style.container}>
       <Head>
-        <title lang="en-us">Truck Signs Adhesive Vinyls Error at payment</title>
+        <title lang="en-us">Baswara Store Error at payment</title>
         <meta
           name="description"
           content="This page is shown because an error in payment was produced."
         />
         <meta
           property="og:title"
-          content="Truck Signs Adhesive Vinyls Error at payment"
+          content="Baswara Store Error at payment"
         />
         <meta
           property="og:description"

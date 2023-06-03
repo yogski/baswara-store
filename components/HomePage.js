@@ -1,34 +1,22 @@
 import { useRouter } from 'next/router';
-import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import Image from "next/image";
 import styles from "../styles/HomePage.module.css";
-import truckShippingIcon from "../public/logos/Truck-mini-logo.svg";
-import watchIcon from "../public/logos/watch-mini-logo.svg";
-import settingsIcon from "../public/logos/setting-mini-logo.svg";
 import {
   Container,
   Form,
   FormControl,
-  FormGroup,
-  InputGroup,
-  Button,
-  Col,
-  Row,
-  Card,
 } from "react-bootstrap";
-import LogoGrid from "./LogoGrid";
+import LogoGrid from "./BestSellerGrid";
 import { useState, useEffect } from "react";
-import axios from "axios";
-import router from "next/router";
 import ButtonPalettePrimary from './ButtonPalettePrimary';
 import CategoryGrid from './CategoryGrid';
+import BestSellerGrid from './BestSellerGrid';
+import NewArrivalGrid from './NewArrivalGrid';
 
 const domain = process.env.NEXT_PUBLIC_API_DOMAIN_NAME;
 
 const HomePage = () => {
-  const [testimonials, setTestimonials] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
 
   const router = useRouter();
@@ -81,9 +69,7 @@ const HomePage = () => {
         </h1>
       </div>
 
-      <div>
-        <p>put another things here</p>
-      </div>
+      <NewArrivalGrid className="my-2" />
 
       <div className={styles.bannerContainer}>
         <h1 className={styles.banner}>
@@ -92,7 +78,7 @@ const HomePage = () => {
       </div>
 
       {/* separata component for displaying products */}
-      <LogoGrid />
+      <BestSellerGrid className="py-2 my-2"/>
 
     </>
   );

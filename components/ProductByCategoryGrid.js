@@ -19,7 +19,6 @@ const ProductByCategoryGrid = (id) => {
 
   useEffect(async () => {
     if (id) {
-      console.log("wtf id?", id, typeof id)
       getProductsByCategory(setProductList, parseInt(id.id));
     }
   }, [id]);
@@ -68,10 +67,7 @@ export default ProductByCategoryGrid;
 
 const getProductsByCategory = (setProductList, categoryId) => {
   if (!domain) {
-    console.log(defaultProductData)
-    console.log("cat id:",categoryId)
     const filteredProductByCategory = defaultProductData.filter((product) => product.categoryId === categoryId);
-    console.log(filteredProductByCategory)
     setProductList(filteredProductByCategory);
   } else {
     const config = {
@@ -89,5 +85,5 @@ const getProductsByCategory = (setProductList, categoryId) => {
       .catch((error) => {
         console.log(error);
       });
-    }
+  }
 };
