@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
-import truckLogo from "../public/logos/Truck-Signs-logo.png";
+import truckLogo from "../public/logos/baswara-logo.png";
 
 import {
   Nav,
@@ -46,7 +46,6 @@ const NextNavbar = () => {
             className={styles.brand_img}
           />
         </Navbar.Brand>
-
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse id="responsive-navbar-nav">

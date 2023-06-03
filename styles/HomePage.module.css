@@ -2,12 +2,26 @@
   font-weight: 400 !important;
 }
 
+.titleStoreMain {
+  font-size: 575%;
+  color: beige;
+  font-family: Sansation;
+  text-align: center;
+}
+
+.titleContainer {
+  background-color: #e57f55;
+  color: beige;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
 .bannerContainer {
-  background-color: #bf1e2d;
+  background-color: #419f8d;
   width: 100% !important;
   height: fit-content !important;
   text-align: center !important;
-  font-family: Athena;
+  font-family: Sansation;
   margin-left: auto !important;
   margin-right: auto !important
 }
@@ -21,7 +35,7 @@
 }
 
 .truckImg {
-  height: 500px;
+  height: 200px;
   width: 100%;
 }
 
@@ -42,7 +56,7 @@
 .uploadLogoHeader {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: Athena;
+  font-family: Sansation;
   font-size: 60px;
 }
 
@@ -58,9 +72,9 @@
 }
 
 .uploadButton {
-  background-color: #bf1e2d;
+  background-color: #419f8d;
   color: white;
-  border-color: #bf1e2d;
+  border-color: #419f8d;
   border-radius: 0px;
   width: 150px;
   height: 40px;
@@ -168,11 +182,11 @@
 }
 
 .testimonialsHeader {
-  color: #bf1e2d;
+  color: #419f8d;
   padding-top: 50px;
   margin-bottom: 0px !important;
   padding-bottom: 0px !important;
-  font-family: Athena;
+  font-family: Sansation;
   font-size: 100px;
 }
 

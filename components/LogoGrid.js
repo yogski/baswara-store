@@ -50,7 +50,7 @@ const LogoGrid = () => {
             </div>
               <div className={styles.orderLogoButton_div}>
                 <Button size="sm" className={styles.orderLogoButton}>
-                  ORDER NOW
+                  Pesan
                 </Button>
               </div>
             </div>
@@ -71,6 +71,40 @@ const getLogos = (setLogos) => {
       "Content-Type": "application/json",
     },
   };
+  const defaultData = [
+    {
+        "id": 1,
+        "category": {
+            "title": "Truck Sign",
+            "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/1/8/9c7aebcf-ca30-4515-bfd6-eadc743d5951.jpg",
+            "base_price": 50,
+            "max_amount_of_lettering_items": 4,
+            "height": 24,
+            "width": 24,
+            "sample_product_id": 1
+        },
+        "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/1/8/9c7aebcf-ca30-4515-bfd6-eadc743d5951.jpg",
+        "detail_image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/1/8/9c7aebcf-ca30-4515-bfd6-eadc743d5951.jpg",
+        "title": "Logo 1",
+        "is_uploaded": false
+    },
+    {
+        "id": 2,
+        "category": {
+            "title": "Truck Sign",
+            "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/4/6/852378f4-8e55-49c2-8f93-cfa0413d691e.jpg",
+            "base_price": 50,
+            "max_amount_of_lettering_items": 4,
+            "height": 24,
+            "width": 24,
+            "sample_product_id": 1
+        },
+        "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/4/6/852378f4-8e55-49c2-8f93-cfa0413d691e.jpg",
+        "detail_image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/4/6/852378f4-8e55-49c2-8f93-cfa0413d691e.jpg",
+        "title": "Logo 2",
+        "is_uploaded": false
+    }
+  ]
 
   const logos_url = domain + "truck-signs/truck-logo-list/";
   axios
@@ -81,5 +115,6 @@ const getLogos = (setLogos) => {
     })
     .catch((error) => {
       console.log(error);
+      setLogos(defaultData);
     });
 };

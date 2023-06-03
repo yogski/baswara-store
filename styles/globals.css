@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Athena";
-  src: url("/fonts/Athena/Athena.ttf");
+  font-family: "Sansation";
+  src: url("/fonts/Sansation/Sansation_Regular.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -42,7 +42,7 @@ html,
 body {
   /* p/ */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Athena, Bench-Nine, Acumin;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Sansation, Bench-Nine, Acumin;
 }
 
 a {
@@ -56,4 +56,48 @@ a {
 
 * {
   max-width: 100%;
+}
+
+.palette-color-1 {
+  background-color: #419f8d;
+}
+
+.palette-text-1 {
+  color: #419f8d;
+}
+
+.palette-color-2 {
+  background-color: #fb885f;
+}
+
+.palette-text-2 {
+  color: #fb885f;
+}
+
+.palette-color-3 {
+  background-color: #e1ab3f;
+}
+
+.palette-text-3 {
+  color: #e1ab3f;
+}
+
+.palette-color-4 {
+  background-color: #c7a57e;
+}
+
+.palette-text-4 {
+  color: #c7a57e;
+}
+
+.palette-color-5 {
+  background-color: #e57f55;
+}
+
+.palette-text-5 {
+  color: #e57f55;
+}
+
+.palette-font {
+  font-family: Sansation;
 }

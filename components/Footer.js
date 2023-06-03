@@ -1,23 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 import styles from "../styles/Footer.module.css";
 import {
-  Nav,
-  Navbar,
-  NavDropdown,
   Container,
-  Form,
-  FormControl,
-  FormGroup,
-  InputGroup,
-  Button,
-  Col,
   Row,
-  ControlLabel,
 } from "react-bootstrap";
-import { useState, useEffect } from "react";
-import axios from "axios";
-import router from "next/router";
 
 const Footer = () => {
   return (
@@ -25,7 +11,7 @@ const Footer = () => {
         <Row className={styles.footerWrapper}>
       <Container className={styles.footerWrapper}>
           <p className={styles.p}>
-            Copyright &copy; 2021 Signs for Trucks All Rights Reserved
+            Copyright &copy; 2023 Baswara Store All Rights Reserved
           </p>
           <Link href="/">
             <a className={styles.footerLink}>Privacy Policy</a>
@@ -36,14 +22,14 @@ const Footer = () => {
       </Container>
         </Row>
         <Row className={styles.contactUsRow}>
-          <p className={styles.contactUsP}>
-            Contact us at Signsfortrucks@gmail.com
-          </p>
+          <Link href="/">
+            <a className={styles.footerLink}>Kontak Kami</a>
+          </Link>{" "}
         </Row>
 
         <Row className={styles.developer_row}>
           <p className={styles.p}>
-            Developed by Cecilia Fernandez Aguilera
+            Developed by Yogi Saputro
           </p>
         </Row>
     </footer>

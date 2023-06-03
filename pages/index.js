@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import style from "../styles/Home.module.css";
 import NextNavbar from "../components/Navbar";
 import HomePage from "../components/HomePage";
@@ -13,25 +12,23 @@ export default function Home() {
         <title lang="en-us">Truck Signs Adhesive Vinyls</title>
         <meta
           name="description"
-          content="A website to buy customizable truck signs adhesive vinyls that can contain the company name, origin, DOT
-              number, VIN, MC, or KYU numbers as well."
+          content="Toko Baswara"
         />
         <meta property="og:title" content="Truck Signs Adhesive Vinyls" />
         <meta
           property="og:description"
-          content="A website to buy customizable truck signs adhesive vinyls that can contain the company name, origin, DOT
-          number, VIN, MC, or KYU numbers as well."
+          content="Katalog E-Commerce Baswara"
         />
         <meta
           property="og:url"
-          content="https://www.signsfortrucks.com/"
+          content="https://yogski.github.io/"
         />
         <meta property="og:type" content="website" />
 
         <link rel="icon" href="/favicon.png" />
         <link
           rel="preload"
-          href="/fonts/Athena/Athena.ttf"
+          href="/fonts/Sansation/Sansation_Regular.ttf"
           as="font"
           crossOrigin=""
         />

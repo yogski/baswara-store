@@ -1,0 +1,32 @@
+[
+  {
+    "id": 10000,
+    "name": "Dekorasi Rumah",
+    "icon": "https://www.svgrepo.com/show/500049/museum.svg",
+    "thumbnail": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/14/0dfa0cf1-0f93-4888-aaa3-bc777e9a2053.jpg"
+  },
+  {
+    "id": 20000,
+    "name": "Cangkir & Mug",
+    "icon": "https://www.svgrepo.com/show/485280/carbonated-soft-drink.svg",
+    "thumbnail": "https://images.tokopedia.net/img/cache/900/product-1/2019/4/12/1500107/1500107_1ba0bf1f-a08d-4b64-83c6-a912b087c438_2048_2048.jpg"
+  },
+  {
+    "id": 30000,
+    "name": "Aksesoris Rumah Tangga",
+    "icon": "https://www.svgrepo.com/show/484993/deer.svg",
+    "thumbnail": "https://images.tokopedia.net/img/cache/900/product-1/2017/11/15/0/0_e25719e9-16aa-4921-875d-74996a1c9cc9_960_960.jpg"
+  },
+  {
+    "id": 40000,
+    "name": "Fashion Pria",
+    "icon": "https://www.svgrepo.com/show/410476/stylish-jacket.svg",
+    "thumbnail": "https://images.tokopedia.net/img/cache/900/VqbcmM/2020/10/2/c7f1f43b-5ada-470f-9518-616f1cfd2879.jpg"
+  },
+  {
+    "id": 50000,
+    "name": "Fashion Wanita",
+    "icon": "https://www.svgrepo.com/show/410439/cocktail-dress.svg",
+    "thumbnail": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/10/5/e631df02-7713-4478-9b6e-833f1cc1af29.jpg"
+  }
+]

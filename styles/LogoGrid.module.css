@@ -50,7 +50,7 @@
   border-color: #bf1e2d;
   border-radius: 0px;
   padding-top: 5px;
-  font-family: "Acumin" !important;
+  font-family: Sansation;
 }
 
 .orderLogoButton:hover,
@@ -67,6 +67,7 @@
     width: 98% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    font-family: Sansation;
     text-align: center;
   }
 

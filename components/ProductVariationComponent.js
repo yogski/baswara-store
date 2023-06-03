@@ -24,7 +24,7 @@ import {
 import { useState, useEffect } from "react";
 import axios from "axios";
 import router from "next/router";
-import { faTimes, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { useProduct } from "../context/ProductContext";
@@ -33,7 +33,6 @@ const domain = process.env.NEXT_PUBLIC_API_DOMAIN_NAME;
 
 const ProductVariationComponent = () => {
     const { product, fetchProductByID } = useProduct();
-
     const [colors, setColors] = useState(null);
     const [color, setColor] = useState(null);
     const [company_name, setCompanyName] = useState(null);
@@ -56,10 +55,6 @@ const ProductVariationComponent = () => {
             setColor(colors[0]);
         }
     }, [colors])
-
-
-
-
 
     const createOrderHandler = async () => {
         if (!(String(email)
@@ -315,8 +310,6 @@ const createOrder = async (product_id, body) => {
             "Content-Type": "application/json",
         },
     };
-
-
 
     const create_order_url = domain + `truck-signs/order/${product_id}/create/`;
     axios
